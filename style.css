@@ -4,10 +4,8 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 200vh;
     overflow-x: hidden;
-
-    
+    padding-bottom: 100px; /* for footer space */
 }
 
 header, footer {
@@ -17,31 +15,30 @@ header, footer {
 }
 
 #header { 
- font-size: 25px;
+    font-size: 25px;
 }
 
 .img1 {
-   position: absolute;
-            top: 25px;
-            left: 40px;
-            width:200px;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 200px;
 }
 
 .right {
     margin-left: 775px;
-    text-decoration: none;
     color: #333;
     font-size: 18px;
     border: 1px solid #333;
     padding: 5px;
-    background-color:#5dc6d0 ;
+    background-color: #5dc6d0;
     width: 180px;
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: absolute;
-    top: 35px; 
-    left: 40px;  
+    top: 35px;
+    left: 40px;
 }
 
 nav {
@@ -49,14 +46,13 @@ nav {
     color: white;
     padding: 25px;
     height: 70vh;
-    
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
-    
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -64,85 +60,44 @@ nav a:hover {
 }
 
 .main {
-    display: grid;  
-    grid-template-columns: 1fr 5fr ;
-
+    display: grid;
+    grid-template-columns: 1fr 5fr;
 }
 
-#left-nav {    
-    flex 1;
-   
+#left-nav {
+    flex: 1;
 }
 
-#center-content { 
-    flex:2;
-    padding: 30px;  
-    
+#center-content {
+    flex: 2;
+    padding: 30px;
 }
 
 .img2 {
-position: absolute;
-            top: 350 px;
-            width:300px;
-            margin-left: 200px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 20px;
 }
 
-
-#campus leads {
-font-size: 20px;
+.Text1, .Text2, .Text3, .Text4, .Text5 {
+    margin-top: 40px;
 }
 
 .join {
     font-size: 20px;
     border: 1px solid #333;
     padding: 5px;
-    background-color: #5dc6d0 ;
+    background-color: #5dc6d0;
     width: 180px;
     text-align: center;
-text-decoration: none;
-    }
-
-
-.Text2 {
-position: relative; 
-top: 250px; 
-left: 10px;
+    margin-top: 10px;
 }
 
-
-.Text3 {
-position: relative; 
-top: 325px; 
-left: 10px;
-}
-
-.Text4 {
-position: relative; 
-top: 350px; 
-left: 10px;
-}
-
-.Text5 {
-position: relative; 
-bottom: -50px; 
-left: 10px;
-}
-
-
-
-#footer {
+footer {
     background-color: #5dc6d0;
     color: black;
-    padding: 10px;
-    height: 5vh;
+    padding: 15px;
+    text-align: center;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    bottom: 0; 
-    left: 0;
-    margin: 0; 
-
+    margin-top: 50px;
 }
-
